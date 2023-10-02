@@ -17,7 +17,7 @@ class GEIregister(discord.ui.Modal):
         recons_mo[str(interaction.user.id)]['user_agent'] = str(self.user_agent)
         with open('bd/speakersMO.json', 'w') as f:
             json.dump(recons_mo, f)
-        await interaction.response.send_message("Вы успешно зарегестрировались в ГЕИ(ГРУПИРОВКА ЕДИНЫХ ИСПОЛНИТЕЛЕЙ(СЛЕДЯЩИХ))")
+        await interaction.response.send_message("Вы успешно зарегестрировались в Группе Единых Следящих")
 
 class GEIAdd(discord.ui.Modal):
     nick = discord.ui.TextInput(label="Ник администратора")
@@ -27,12 +27,12 @@ class GEIAdd(discord.ui.Modal):
 
     async def on_submit(self, interaction: discord.Interaction) -> None:
         if str(self.discordId) in recons_mo:
-            await interaction.response.send_message("Данный администратор уже в списке ГЕИ")
+            await interaction.response.send_message("Данный администратор уже в списке Группы Единых Следящих")
             return
         recons_mo[str(self.discordId)] = {'nick': str(self.nick),'cockie': None,'user_agent': None}
         with open('bd/speakersMO.json', 'w') as f:
             json.dump(recons_mo, f)
-        await interaction.response.send_message(f"Администратор {self.nick} успешно добавлен в список ГЕИ\n<@{self.discordId}> Теперь ввы можете использовать /register")
+        await interaction.response.send_message(f"Администратор {self.nick} успешно добавлен в список Группы Единых Следящих\n<@{self.discordId}> Теперь вы можете использовать /register")
 
 class GEIRemove(discord.ui.View):
     def __init__(self, user_id):
@@ -52,7 +52,7 @@ class GEIRemove(discord.ui.View):
         del recons_mo[str(select.values[0])]
         with open('bd/speakersMO.json', 'w') as f:
             json.dump(recons_mo, f)
-        await interaction.response.edit_message(content=f"Администратор {nick} удалён из списка ГЕИ", view=None)
+        await interaction.response.edit_message(content=f"Администратор {nick} удалён из списка Группы Единых Следящих", view=None)
 
 class gei_register_command(commands.Cog):
     def __init__(self, bot):
@@ -60,38 +60,38 @@ class gei_register_command(commands.Cog):
 
     @commands.Cog.listener()
     async def on_ready(self):
-        print("[SYSTEM]: Команда регистрации в ГЕИ запущена")
+        print("[SYSTEM]: Команда регистрации в ГЕC запущена")
 
-    @app_commands.command(name='register', description="Регистрация в ГЕИ(ГРУПИРОВКА ЕДИНЫХ ИСПОЛНИТЕЛЕЙ(СЛЕДЯЩИХ))")
+    @app_commands.command(name='register', description="Регистрация в Группу Единых Следящих")
     async def send(self, interaction: discord.Interaction):
         
         if str(interaction.user.id) in recons_mo:
             await interaction.response.send_modal(GEIregister())
         else:
-            await interaction.response.send_message("Вас нету в списке ГЕИ(ГРУПИРОВКА ЕДИНЫХ ИСПОЛНИТЕЛЕЙ(СЛЕДЯЩИХ))", ephemeral=True)
+            await interaction.response.send_message("Вас нету в списке Группы Единых Следящих", ephemeral=True)
 
 class gei_add_command(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-    @app_commands.command(name='addtogei', description="Добавление в ГЕИ(ГРУПИРОВКА ЕДИНЫХ ИСПОЛНИТЕЛЕЙ(СЛЕДЯЩИХ))")
+    @app_commands.command(name='addtogei', description="Добавление в Группу Единых Следящих")
     async def send(self, interaction: discord.Interaction):
         if interaction.user.guild_permissions.administrator:
             print(interaction.user._permissions)
             await interaction.response.send_modal(GEIAdd())
         else:
-            await interaction.response.send_message("Вы не руководитель ГЕИ(ГРУПИРОВКА ЕДИНЫХ ИСПОЛНИТЕЛЕЙ(СЛЕДЯЩИХ))", ephemeral=True)
+            await interaction.response.send_message("Вы не руководитель Группы Единых Следящих", ephemeral=True)
 
 class gei_remove_command(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-    @app_commands.command(name='removegei', description="Удаление из ГЕИ(ГРУПИРОВКА ЕДИНЫХ ИСПОЛНИТЕЛЕЙ(СЛЕДЯЩИХ))")
+    @app_commands.command(name='removegei', description="Удаление из Группы Единых Следящих")
     async def send(self, interaction: discord.Interaction):
         if interaction.user.guild_permissions.administrator:
-            await interaction.response.send_message("Выберите кого выпнуть с позором", view=GEIRemove(interaction.user.id))
+            await interaction.response.send_message("Выберите кого удалить из списка Группы Единых Следящих", view=GEIRemove(interaction.user.id))
         else:
-            await interaction.response.send_message("Вы не руководитель ГЕИ(ГРУПИРОВКА ЕДИНЫХ ИСПОЛНИТЕЛЕЙ(СЛЕДЯЩИХ))", ephemeral=True)
+            await interaction.response.send_message("Вы не руководитель Группу Единых Следящих", ephemeral=True)
             
 
 async def setup(bot):
