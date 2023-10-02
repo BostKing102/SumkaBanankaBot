@@ -8171,3 +8171,640 @@ Shard ID None has connected to Gateway (Session ID: 3d42239140ef1dbdc4f6e6066129
 Bot started at 2023-10-02 00:38:05
 logging in using static token
 Shard ID None has connected to Gateway (Session ID: 5aa8a9887dcc0867bb1af78d99c8b36f).
+Bot started at 2023-10-02 16:00:50
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: bc288ade44a855d494d6da90aeaf4e35).
+Bot started at 2023-10-02 19:44:35
+Bot started at 2023-10-02 19:53:43
+Bot started at 2023-10-02 19:54:35
+Bot started at 2023-10-02 19:55:01
+Bot started at 2023-10-02 19:56:40
+Bot started at 2023-10-02 19:57:25
+Bot started at 2023-10-02 19:58:32
+Bot started at 2023-10-02 20:00:28
+Bot started at 2023-10-02 20:00:48
+Bot started at 2023-10-02 20:02:46
+Bot started at 2023-10-02 20:03:45
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: 2925e77f5c10889018e3b560df097a43).
+Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\koste\OneDrive\Рабочий стол\скрипты\SumkaBanankaBot\bot.py", line 14, in on_ready
+    await bot.tree.sync()
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\tree.py", line 1072, in sync
+    raise CommandSyncFailure(e, commands) from None
+discord.app_commands.errors.CommandSyncFailure: Failed to upload commands to Discord (HTTP status 400, error code 50035)
+In command 'getorginfo' defined in function 'get_frac_command.send'
+  In parameter 'FracList'
+    name: Command name is invalid
+    choices: Must be 25 or fewer in length.
+Bot started at 2023-10-02 20:05:49
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: 53e520a4c36d1f30c278e9a17b5bfbff).
+Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\koste\OneDrive\Рабочий стол\скрипты\SumkaBanankaBot\bot.py", line 14, in on_ready
+    await bot.tree.sync()
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\tree.py", line 1072, in sync
+    raise CommandSyncFailure(e, commands) from None
+discord.app_commands.errors.CommandSyncFailure: Failed to upload commands to Discord (HTTP status 400, error code 50035)
+In command 'getorginfo' defined in function 'get_frac_command.send'
+  In parameter 'FracList'
+    name: Command name is invalid
+Bot started at 2023-10-02 20:07:10
+Bot started at 2023-10-02 20:09:16
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: 7689b7b3d93cb51ee1828adaacb2b23b).
+Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\koste\OneDrive\Рабочий стол\скрипты\SumkaBanankaBot\bot.py", line 14, in on_ready
+    await bot.tree.sync()
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\tree.py", line 1072, in sync
+    raise CommandSyncFailure(e, commands) from None
+discord.app_commands.errors.CommandSyncFailure: Failed to upload commands to Discord (HTTP status 400, error code 50035)
+In command 'getorginfo' defined in function 'get_frac_command.send'
+  In parameter 'Frac'
+    name: Command name is invalid
+Bot started at 2023-10-02 20:10:13
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: 1e03e56e80f10f94bc38b879d894c65e).
+Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\koste\OneDrive\Рабочий стол\скрипты\SumkaBanankaBot\bot.py", line 14, in on_ready
+    await bot.tree.sync()
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\tree.py", line 1072, in sync
+    raise CommandSyncFailure(e, commands) from None
+discord.app_commands.errors.CommandSyncFailure: Failed to upload commands to Discord (HTTP status 400, error code 50035)
+In command 'getorginfo' defined in function 'get_frac_command.send'
+  In parameter 'Frac'
+    name: Command name is invalid
+Bot started at 2023-10-02 20:11:25
+Bot started at 2023-10-02 20:11:53
+logging in using static token
+Bot started at 2023-10-02 20:12:40
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: 82e3a6382cfdb8aaecfde2110ab07fe7).
+Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\koste\OneDrive\Рабочий стол\скрипты\SumkaBanankaBot\bot.py", line 14, in on_ready
+    await bot.tree.sync()
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\tree.py", line 1072, in sync
+    raise CommandSyncFailure(e, commands) from None
+discord.app_commands.errors.CommandSyncFailure: Failed to upload commands to Discord (HTTP status 400, error code 50035)
+In command 'getorginfo' defined in function 'get_frac_command.send'
+  In parameter 'Frac'
+    name: Command name is invalid
+Bot started at 2023-10-02 20:13:59
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: f18588a6cb414b3df4ea959fd54c6794).
+Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\koste\OneDrive\Рабочий стол\скрипты\SumkaBanankaBot\bot.py", line 14, in on_ready
+    await bot.tree.sync()
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\tree.py", line 1072, in sync
+    raise CommandSyncFailure(e, commands) from None
+discord.app_commands.errors.CommandSyncFailure: Failed to upload commands to Discord (HTTP status 400, error code 50035)
+In command 'getorginfo' defined in function 'get_frac_command.getfrac'
+  In parameter 'Frac'
+    name: Command name is invalid
+Bot started at 2023-10-02 20:16:01
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: 71d40145e5e2cdda6e4b49910ab402b4).
+Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\koste\OneDrive\Рабочий стол\скрипты\SumkaBanankaBot\bot.py", line 14, in on_ready
+    await bot.tree.sync()
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\tree.py", line 1072, in sync
+    raise CommandSyncFailure(e, commands) from None
+discord.app_commands.errors.CommandSyncFailure: Failed to upload commands to Discord (HTTP status 400, error code 50035)
+In command 'getorginfo' defined in function 'get_frac_command.send'
+  In parameter 'Frac'
+    name: Command name is invalid
+Bot started at 2023-10-02 20:16:17
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: 81f3ae3423c11eb8e19b33087a9f6b05).
+Bot started at 2023-10-02 20:26:54
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: a2278230035c63ecb74127666cc793d4).
+Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\koste\OneDrive\Рабочий стол\скрипты\SumkaBanankaBot\bot.py", line 14, in on_ready
+    await bot.tree.sync()
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\tree.py", line 1072, in sync
+    raise CommandSyncFailure(e, commands) from None
+discord.app_commands.errors.CommandSyncFailure: Failed to upload commands to Discord (HTTP status 400, error code 50035)
+In command 'getorginfo' defined in function 'get_frac_command.send'
+  In parameter 'Frac'
+    name: Command name is invalid
+Bot started at 2023-10-02 20:29:26
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: 327b8b4e2bee0d60c9bdb4648c9b1ff3).
+Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\koste\OneDrive\Рабочий стол\скрипты\SumkaBanankaBot\bot.py", line 14, in on_ready
+    await bot.tree.sync()
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\tree.py", line 1072, in sync
+    raise CommandSyncFailure(e, commands) from None
+discord.app_commands.errors.CommandSyncFailure: Failed to upload commands to Discord (HTTP status 400, error code 50035)
+In command 'getorginfo' defined in function 'get_frac_command.send'
+  In parameter 'Frac'
+    name: Command name is invalid
+Bot started at 2023-10-02 20:30:22
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: ee2e36987e51c1d27a04872115e1ec29).
+Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\koste\OneDrive\Рабочий стол\скрипты\SumkaBanankaBot\bot.py", line 14, in on_ready
+    await bot.tree.sync()
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\tree.py", line 1072, in sync
+    raise CommandSyncFailure(e, commands) from None
+discord.app_commands.errors.CommandSyncFailure: Failed to upload commands to Discord (HTTP status 400, error code 50035)
+In command 'getorginfo' defined in function 'get_frac_command.send'
+  In parameter 'Frac'
+    name: Command name is invalid
+Bot started at 2023-10-02 20:31:35
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: 1f5d229561de6bab2b743807e4166f54).
+Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\koste\OneDrive\Рабочий стол\скрипты\SumkaBanankaBot\bot.py", line 14, in on_ready
+    await bot.tree.sync()
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\tree.py", line 1072, in sync
+    raise CommandSyncFailure(e, commands) from None
+discord.app_commands.errors.CommandSyncFailure: Failed to upload commands to Discord (HTTP status 400, error code 50035)
+In command 'getorginfo' defined in function 'get_frac_command.send'
+  In parameter 'Frac'
+    name: Command name is invalid
+Bot started at 2023-10-02 20:32:20
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: 27ae9211499f726258fccd06c34918fb).
+Bot started at 2023-10-02 20:32:57
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: 6853e345a6dbbbcf11f0bb0e2fea45be).
+Bot started at 2023-10-02 20:35:20
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: 1bedb19468984a3bf221e18646b161f8).
+Bot started at 2023-10-02 20:36:57
+logging in using static token
+Bot started at 2023-10-02 20:39:40
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: 9dc4089b36729505537b807ae206e60f).
+Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\koste\OneDrive\Рабочий стол\скрипты\SumkaBanankaBot\bot.py", line 14, in on_ready
+    await bot.tree.sync()
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\tree.py", line 1072, in sync
+    raise CommandSyncFailure(e, commands) from None
+discord.app_commands.errors.CommandSyncFailure: Failed to upload commands to Discord (HTTP status 400, error code 50035)
+In command 'getorginfo' defined in function 'get_frac_command.send'
+  In parameter 'serverId'
+    name: Command name is invalid
+Bot started at 2023-10-02 20:40:06
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: a250fd1a5c9117acaddf78eaf0fc1c25).
+Bot started at 2023-10-02 20:42:13
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: 8f2568073790014561a07943e677ab67).
+Task exception was never retrieved
+future: <Task finished name='CommandTree-invoker' coro=<CommandTree._from_interaction.<locals>.wrapper() done, defined at C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\tree.py:1087> exception=TypeError("'_MissingSentinel' object is not iterable")>
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\tree.py", line 1089, in wrapper
+    await self._call(interaction)
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 852, in _invoke_with_namespace
+    transformed_values = await self._transform_arguments(interaction, namespace)
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 818, in _transform_arguments
+    transformed_values[param.name] = await param.transform(interaction, value)
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\transformers.py", line 174, in transform
+    choice = next((c for c in self.choices if c.value == value), None)
+TypeError: '_MissingSentinel' object is not iterable
+Bot started at 2023-10-02 20:43:08
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: 4fe3703ccb6fe5239a3efcb16c07ef90).
+Task exception was never retrieved
+future: <Task finished name='CommandTree-invoker' coro=<CommandTree._from_interaction.<locals>.wrapper() done, defined at C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\tree.py:1087> exception=TypeError("'_MissingSentinel' object is not iterable")>
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\tree.py", line 1089, in wrapper
+    await self._call(interaction)
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 852, in _invoke_with_namespace
+    transformed_values = await self._transform_arguments(interaction, namespace)
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 818, in _transform_arguments
+    transformed_values[param.name] = await param.transform(interaction, value)
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\transformers.py", line 174, in transform
+    choice = next((c for c in self.choices if c.value == value), None)
+TypeError: '_MissingSentinel' object is not iterable
+Bot started at 2023-10-02 20:44:17
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: 7c019890d8894be0ded76bc54769e775).
+Task exception was never retrieved
+future: <Task finished name='CommandTree-invoker' coro=<CommandTree._from_interaction.<locals>.wrapper() done, defined at C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\tree.py:1087> exception=TypeError("'_MissingSentinel' object is not iterable")>
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\tree.py", line 1089, in wrapper
+    await self._call(interaction)
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 852, in _invoke_with_namespace
+    transformed_values = await self._transform_arguments(interaction, namespace)
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 818, in _transform_arguments
+    transformed_values[param.name] = await param.transform(interaction, value)
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\transformers.py", line 174, in transform
+    choice = next((c for c in self.choices if c.value == value), None)
+TypeError: '_MissingSentinel' object is not iterable
+Bot started at 2023-10-02 20:45:51
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: 09388c621e0193bbff98a3139fd21ad6).
+Ignoring exception in command 'getorginfo'
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+  File "C:\Users\koste\OneDrive\Рабочий стол\скрипты\SumkaBanankaBot\cogs\fracinfo.py", line 125, in send
+    frac = requests.get(f"https://backend.arizona-rp.com/fraction/get-players?serverId={serverid.value}&fractionId={frac.value}", headers={'Referer': 'https://arizona-rp.com/'})
+AttributeError: 'int' object has no attribute 'value'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'getorginfo' raised an exception: AttributeError: 'int' object has no attribute 'value'
+Bot started at 2023-10-02 20:49:14
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: 5ec165d476ed4c57243cfd1347f20b4e).
+Bot started at 2023-10-02 20:49:44
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: a1f352995871de9cd25f538070ff48a2).
+Bot started at 2023-10-02 20:56:14
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: a899eab235f5c3ee3efd5e11022a7402).
+Bot started at 2023-10-02 20:57:09
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: 38b4c27fa24e058d399878a7b02abc5a).
+Bot started at 2023-10-02 20:58:08
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: a6281361e9556440b57639ae5ec041ff).
+Ignoring exception in command 'getorginfo'
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+  File "C:\Users\koste\OneDrive\Рабочий стол\скрипты\SumkaBanankaBot\cogs\fracinfo.py", line 133, in send
+    await interaction.response.send_message(send_frac_info(serverid, frac.value))
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\interactions.py", line 801, in send_message
+    await adapter.create_interaction_response(
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\webhook\async_.py", line 221, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In data.content: Must be 2000 or fewer in length.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'getorginfo' raised an exception: HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In data.content: Must be 2000 or fewer in length.
+Bot started at 2023-10-02 20:59:17
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: 0195ff3778542f274eb11b03fe9762ba).
+Bot started at 2023-10-02 21:10:53
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: 7afd2339b5028114b21028cb165df49a).
+Bot started at 2023-10-02 21:14:43
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: 5089a630af2e5da35f1b16a3f72a440f).
+Ignoring exception in command 'getorginfo'
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+  File "C:\Users\koste\OneDrive\Рабочий стол\скрипты\SumkaBanankaBot\cogs\fracinfo.py", line 141, in send
+    await interaction.response.send_message(send_frac_info(serverid, frac.value))
+  File "C:\Users\koste\OneDrive\Рабочий стол\скрипты\SumkaBanankaBot\cogs\fracinfo.py", line 119, in send_frac_info
+    result["members"].append(nick = member['name'], rankname = member['rankLable'])
+KeyError: 'rankLable'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'getorginfo' raised an exception: KeyError: 'rankLable'
+Bot started at 2023-10-02 21:15:19
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: a6ac02a4c5852df255b4646cee7d63f5).
+Ignoring exception in command 'getorginfo'
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+  File "C:\Users\koste\OneDrive\Рабочий стол\скрипты\SumkaBanankaBot\cogs\fracinfo.py", line 141, in send
+    await interaction.response.send_message(send_frac_info(serverid, frac.value))
+  File "C:\Users\koste\OneDrive\Рабочий стол\скрипты\SumkaBanankaBot\cogs\fracinfo.py", line 119, in send_frac_info
+    result["members"].append(nick = member['name'], rankname = member['rankLabel'])
+TypeError: list.append() takes no keyword arguments
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 842, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'getorginfo' raised an exception: TypeError: list.append() takes no keyword arguments
+Bot started at 2023-10-02 21:17:12
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: f8bc4eb5ca990a253770beba8f2624e5).
+Ignoring exception in command 'getorginfo'
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+  File "C:\Users\koste\OneDrive\Рабочий стол\скрипты\SumkaBanankaBot\cogs\fracinfo.py", line 142, in send
+    await interaction.response.send_message(send_frac_info(serverid, frac.value))
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\interactions.py", line 801, in send_message
+    await adapter.create_interaction_response(
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\webhook\async_.py", line 221, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In data.content: Must be 2000 or fewer in length.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'getorginfo' raised an exception: HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In data.content: Must be 2000 or fewer in length.
+Bot started at 2023-10-02 21:19:39
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: a53dcdf13080904928a766e2defdc032).
+Bot started at 2023-10-02 21:27:08
+Bot started at 2023-10-02 21:27:34
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: 563577e39d648dd812de9dab935a9722).
+Bot started at 2023-10-02 21:35:27
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: 67a3e0cb8e864a707421a2f105e93571).
+Ignoring exception in command 'getorginfo'
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+  File "C:\Users\koste\OneDrive\Рабочий стол\скрипты\SumkaBanankaBot\cogs\fracinfo.py", line 149, in send
+    await interaction.response.send_message(embed=send_frac_info(serverid, frac.value))
+  File "C:\Users\koste\OneDrive\Рабочий стол\скрипты\SumkaBanankaBot\cogs\fracinfo.py", line 116, in send_frac_info
+    embed = discord.Embed(title=f'Фракция {orgname}')
+UnboundLocalError: local variable 'orgname' referenced before assignment
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'getorginfo' raised an exception: UnboundLocalError: local variable 'orgname' referenced before assignment
+Ignoring exception in command 'getorginfo'
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+  File "C:\Users\koste\OneDrive\Рабочий стол\скрипты\SumkaBanankaBot\cogs\fracinfo.py", line 149, in send
+    await interaction.response.send_message(embed=send_frac_info(serverid, frac.value))
+  File "C:\Users\koste\OneDrive\Рабочий стол\скрипты\SumkaBanankaBot\cogs\fracinfo.py", line 116, in send_frac_info
+    embed = discord.Embed(title=f'Фракция {orgname}')
+UnboundLocalError: local variable 'orgname' referenced before assignment
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'getorginfo' raised an exception: UnboundLocalError: local variable 'orgname' referenced before assignment
+Bot started at 2023-10-02 21:37:09
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: 12bdbf51ddaf9750ac631a0d750e8ffd).
+Bot started at 2023-10-02 21:37:56
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: 0a4dfad1b8123bafe01dab0930541b10).
+Bot started at 2023-10-02 21:41:12
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: fa7972ef0d9b164409ca88f21df332a3).
+Ignoring exception in command 'getorginfo'
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+  File "C:\Users\koste\OneDrive\Рабочий стол\скрипты\SumkaBanankaBot\cogs\fracinfo.py", line 150, in send
+    await interaction.response.send_message(embed=send_frac_info(serverid, frac.value))
+  File "C:\Users\koste\OneDrive\Рабочий стол\скрипты\SumkaBanankaBot\cogs\fracinfo.py", line 126, in send_frac_info
+    embed.add_field(name="Сотрудники", value="\n".join(members))
+TypeError: sequence item 0: expected str instance, dict found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 842, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'getorginfo' raised an exception: TypeError: sequence item 0: expected str instance, dict found
+Bot started at 2023-10-02 21:42:05
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: bb540cbfcc8bd286d423c8cf3ea545d6).
+Ignoring exception in command 'getorginfo'
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+  File "C:\Users\koste\OneDrive\Рабочий стол\скрипты\SumkaBanankaBot\cogs\fracinfo.py", line 150, in send
+    await interaction.response.send_message(embed=send_frac_info(serverid, frac.value))
+  File "C:\Users\koste\OneDrive\Рабочий стол\скрипты\SumkaBanankaBot\cogs\fracinfo.py", line 126, in send_frac_info
+    embed.add_field(name="Сотрудники", value="\n".join(members))
+TypeError: sequence item 0: expected str instance, dict found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 842, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'getorginfo' raised an exception: TypeError: sequence item 0: expected str instance, dict found
+Bot started at 2023-10-02 21:42:29
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: 91e21f27fa33a647f08656b20a1aacce).
+Ignoring exception in command 'getorginfo'
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+  File "C:\Users\koste\OneDrive\Рабочий стол\скрипты\SumkaBanankaBot\cogs\fracinfo.py", line 150, in send
+    await interaction.response.send_message(embed=send_frac_info(serverid, frac.value))
+  File "C:\Users\koste\OneDrive\Рабочий стол\скрипты\SumkaBanankaBot\cogs\fracinfo.py", line 126, in send_frac_info
+    embed.add_field(name="Сотрудники", value="\n".join(members))
+TypeError: sequence item 0: expected str instance, dict found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 842, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'getorginfo' raised an exception: TypeError: sequence item 0: expected str instance, dict found
+Bot started at 2023-10-02 21:43:10
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: 71b1dae013bb41cb8d3991901d1376c8).
+Ignoring exception in command 'getorginfo'
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+  File "C:\Users\koste\OneDrive\Рабочий стол\скрипты\SumkaBanankaBot\cogs\fracinfo.py", line 150, in send
+    await interaction.response.send_message(embed=send_frac_info(serverid, frac.value))
+  File "C:\Users\koste\OneDrive\Рабочий стол\скрипты\SumkaBanankaBot\cogs\fracinfo.py", line 126, in send_frac_info
+    embed.add_field(name="Сотрудники", value="\n".join(members['nick']))
+TypeError: list indices must be integers or slices, not str
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 842, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'getorginfo' raised an exception: TypeError: list indices must be integers or slices, not str
+Bot started at 2023-10-02 21:44:19
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: 0740c9abd5543fedeb6c3d1d6c78792e).
+Ignoring exception in command 'getorginfo'
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+  File "C:\Users\koste\OneDrive\Рабочий стол\скрипты\SumkaBanankaBot\cogs\fracinfo.py", line 150, in send
+    await interaction.response.send_message(embed=send_frac_info(serverid, frac.value))
+  File "C:\Users\koste\OneDrive\Рабочий стол\скрипты\SumkaBanankaBot\cogs\fracinfo.py", line 126, in send_frac_info
+    embed.add_field(name="Сотрудники", value="\n".join(members['nick']))
+TypeError: list indices must be integers or slices, not str
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 842, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'getorginfo' raised an exception: TypeError: list indices must be integers or slices, not str
+Bot started at 2023-10-02 21:45:12
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: 741c216646fc3c6173c9eaa86e1c864e).
+Bot started at 2023-10-02 21:46:32
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: 57a55ec5778f1ac0fb96e1a4c98238d7).
+Ignoring exception in command 'getorginfo'
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+  File "C:\Users\koste\OneDrive\Рабочий стол\скрипты\SumkaBanankaBot\cogs\fracinfo.py", line 151, in send
+    await interaction.response.send_message(embed=send_frac_info(serverid, frac.value))
+  File "C:\Users\koste\OneDrive\Рабочий стол\скрипты\SumkaBanankaBot\cogs\fracinfo.py", line 126, in send_frac_info
+    members_str = "\n".join(members['nick'])
+TypeError: list indices must be integers or slices, not str
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 842, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'getorginfo' raised an exception: TypeError: list indices must be integers or slices, not str
+Bot started at 2023-10-02 21:50:41
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: f18ca5004df36fbc0393c578255d5049).
+Bot started at 2023-10-02 21:52:02
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: bff400525d83a3e58ce5d9b5c033315f).
+Bot started at 2023-10-02 21:53:19
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: 98efc791d5392b29d7430eaa925a9e1a).
+Ignoring exception in command 'getorginfo'
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+  File "C:\Users\koste\OneDrive\Рабочий стол\скрипты\SumkaBanankaBot\cogs\fracinfo.py", line 153, in send
+    await interaction.response.send_message(embed=send_frac_info(serverid, frac.value))
+  File "C:\Users\koste\OneDrive\Рабочий стол\скрипты\SumkaBanankaBot\cogs\fracinfo.py", line 129, in send_frac_info
+    embed.add_field(name="Всего сотрудников", value=i + " Человек")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "C:\Users\koste\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\app_commands\commands.py", line 842, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'getorginfo' raised an exception: TypeError: unsupported operand type(s) for +: 'int' and 'str'
+Bot started at 2023-10-02 21:54:10
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: 73512bb76e995fce98b5f790ca58c6c8).
+Bot started at 2023-10-02 21:55:21
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: cace3c6e4cd25eba25be682c1a7e5635).

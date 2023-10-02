@@ -7,8 +7,8 @@ import re
 import telebot
 import bypass.bypass
 
-coockie = "_ym_uid=1658477733375770370; _ym_d=1691243404; _ga_25SQLLK3B1=GS1.1.1691586289.4.0.1691586289.60.0.0; _gid=GA1.2.114239003.1693833049; xf_tfa_trust=P5WlFYr3j5QLVPFHppt9rvk6sqQHizJW; xf_user=800164%2C8xSYZIR5hxaRD9j52Sfit6pT6IxtbE39RKqajblb; xf_csrf=ZgNorbV7Pvys6Wk0; xf_session=ygogxms03pVOlDsainfjXt7jfBFA9E63; _gat_gtag_UA_175660820_1=1; _ga_KQRCJL2214=GS1.1.1693988528.53.1.1693988654.0.0.0; _ga=GA1.1.1379025495.1669037304"
-user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.69"
+coockie = "xf_tfa_trust=Mw3kRYby1QIDtgH7nR3EzjksHNn0LjrU; _ym_uid=1658477733375770370; _ym_d=1694707420; _gid=GA1.2.316968912.1695364393; _ga_25SQLLK3B1=GS1.1.1696008319.5.1.1696009168.21.0.0; xf_csrf=ok2-4jvSCcB9gsdw; xf_notice_dismiss=-1; xf_user=1050943%2CoiJe021zgHSotaKx8ALmdhlFqpaWcwdeZgOrBMoJ; xf_session=xWpDZUAgjW-68Z4ZGhrZcrrwpdxo_HCD; _ga_KQRCJL2214=GS1.1.1696183571.85.1.1696183645.0.0.0; _ga=GA1.1.1805143122.1693988716"
+user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.17"
 
 code = bypass.bypass.bypass(user_agent)
 coockie += f"; {code[0]}"

@@ -12,7 +12,7 @@ logger = logging.getLogger("bot")
 intents = discord.Intents.all()
 intents.message_content = True
 
-coockie = "xf_tfa_trust=Mw3kRYby1QIDtgH7nR3EzjksHNn0LjrU; xf_user=1050943%2C3z-TerjjRMyQpztkDU6wbqpBZFrXgll-Xd1Lvo15; _ym_uid=1658477733375770370; _ym_d=1694707420; _gid=GA1.2.316968912.1695364393; _ga_25SQLLK3B1=GS1.1.1696008319.5.1.1696009168.21.0.0; xf_csrf=5jxXO9E6G0DNBS1p; xf_session=PQJxa2vhP3LZkYPdLx2fZf3yyQ9uAgXj; _gat_gtag_UA_175660820_1=1; _ga_KQRCJL2214=GS1.1.1696137825.76.1.1696140221.0.0.0; _ga=GA1.1.1805143122.1693988716"
+coockie = "xf_tfa_trust=Mw3kRYby1QIDtgH7nR3EzjksHNn0LjrU; _ym_uid=1658477733375770370; _ym_d=1694707420; _gid=GA1.2.316968912.1695364393; _ga_25SQLLK3B1=GS1.1.1696008319.5.1.1696009168.21.0.0; xf_notice_dismiss=-1; xf_user=1050943%2CoiJe021zgHSotaKx8ALmdhlFqpaWcwdeZgOrBMoJ; xf_session=ub3bpzViiPH6HpgTxwOxPQdP4qDdv3bU; xf_csrf=U6I7oVR2poPnrdV7; _ga_KQRCJL2214=GS1.1.1696235694.86.1.1696237134.0.0.0; _ga=GA1.2.1805143122.1693988716"
 user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.17"
 
 with open('bd/speakersMO.json', 'r') as f:
