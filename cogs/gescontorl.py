@@ -62,7 +62,7 @@ class gei_register_command(commands.Cog):
     async def on_ready(self):
         print("[SYSTEM]: Команда регистрации в ГЕC запущена")
 
-    @app_commands.command(name='register', description="Регистрация в Группу Единых Следящих")
+    @app_commands.command(name='registerges', description="Регистрация в Группу Единых Следящих")
     async def send(self, interaction: discord.Interaction):
         
         if str(interaction.user.id) in recons_mo:
@@ -74,7 +74,7 @@ class gei_add_command(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-    @app_commands.command(name='addtogei', description="Добавление в Группу Единых Следящих")
+    @app_commands.command(name='addtoges', description="Добавление в Группу Единых Следящих")
     async def send(self, interaction: discord.Interaction):
         if interaction.user.guild_permissions.administrator:
             print(interaction.user._permissions)
@@ -86,7 +86,7 @@ class gei_remove_command(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-    @app_commands.command(name='removegei', description="Удаление из Группы Единых Следящих")
+    @app_commands.command(name='removeges', description="Удаление из Группы Единых Следящих")
     async def send(self, interaction: discord.Interaction):
         if interaction.user.guild_permissions.administrator:
             await interaction.response.send_message("Выберите кого удалить из списка Группы Единых Следящих", view=GEIRemove(interaction.user.id))
